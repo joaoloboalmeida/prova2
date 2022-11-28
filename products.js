@@ -35,5 +35,10 @@ function listar_por_categoria(categoria){
 	console.log(produtosCategoria);
 }
 
+function listar_por_valor(valorMinimo, valorMaximo){
+	cont produtosValor = produtos.filter(p => p.valor >= valorMinimo && p.valor <= valorMaximo);
+	console.log(produtosValor);
+}
+
 
 
